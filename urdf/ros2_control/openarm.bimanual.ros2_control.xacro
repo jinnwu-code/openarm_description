@@ -42,6 +42,11 @@
             <param name="kd5">${control_gains['joint5']['kd']}</param>
             <param name="kd6">${control_gains['joint6']['kd']}</param>
             <param name="kd7">${control_gains['joint7']['kd']}</param>
+            <param name="gravity_comp_enable">true</param>
+            <param name="gravity_scale">1.0</param>
+            <param name="gravity_urdf_path">/home/jinnn/ros2_ws/openarm_bimanual.urdf</param>
+            <param name="payload_mass">0.0</param>
+            <param name="payload_com">0 0 0</param>
           </xacro:unless>
         </hardware>
 
@@ -107,6 +112,11 @@
             <param name="kd5">${control_gains['joint5']['kd']}</param>
             <param name="kd6">${control_gains['joint6']['kd']}</param>
             <param name="kd7">${control_gains['joint7']['kd']}</param>
+            <param name="gravity_comp_enable">true</param>
+            <param name="gravity_scale">1.0</param>
+            <param name="gravity_urdf_path">/home/jinnn/ros2_ws/openarm_bimanual.urdf</param>
+            <param name="payload_mass">0.0</param>
+            <param name="payload_com">0 0 0</param>
           </xacro:unless>
         </hardware>
 
