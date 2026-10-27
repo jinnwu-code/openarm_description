@@ -1,3 +1,5 @@
+> **OpenArm pipeline 复现：** [安装与六终端运行指南](README_PIPELINE.md) · `bash install.sh --help`
+
 # Robot Description files for OpenArm
 
 This package contains description files to generate OpenArm URDFs (Universal Robot Description Files). See [documentation](https://docs.openarm.dev/software/description) for details.
